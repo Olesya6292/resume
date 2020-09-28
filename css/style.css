@@ -71,21 +71,23 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   font-family: var(--font-main);
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /* COMMON */
 
 .tablet-element {
-  display: none !important;
+  display: none;
 }
 
 .desktop-element {
-  display: none !important;
+  display: none;
 }
 
 .mobile-element {
@@ -1037,7 +1039,7 @@ body {
   }
 
   .tablet-element {
-    display: block !important;
+    display: block;
   }
 
   .front-page-my-name {
@@ -1260,11 +1262,11 @@ body {
     max-width: var(--desktop-lg);
   }
   .tablet-element {
-    display: none !important;
+    display: none;
   }
 
   .desktop-element {
-    display: block !important;
+    display: block;
   }
 
   .front-page-my-info {
